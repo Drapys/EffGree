@@ -1,8 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{razor,cshtml,html}"],
+  content: ["./pages/**/*.{js,ts,jsx,tsx,mdx,html}",
+  './pages/*.{html,js,ts,jsx}',
+'./**/Index.html' ],
   theme: {
-    extend: {},
+    extend: {
+      width:{
+        '200%':'100rem',
+      },
+      backgroundImage: {
+        'path': "url('../../wwwroot/Imgs/Path.png')",
+      }
+    },
   },
   plugins: [],
 }

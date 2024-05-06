@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#Trojuhelnik{
+    clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+}
+
+@font-face{
+    font-family: "KYIVPICO";
+    src: url("../Font/KyivTypeSans-VarGX.ttf") format("truetype");
+  }
+
+  .StretchByHeight{
+    background-size: 100vw 70%;
+  }
