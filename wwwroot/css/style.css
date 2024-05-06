@@ -15,3 +15,6 @@
   .StretchByHeight{
     background-size: 100vw 70%;
   }
+  .StrechItMore{
+    background-size: 100vw 100%;
+  }
